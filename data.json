@@ -1,6 +1,76 @@
 {
     "productList": [
         { 
+            "name": "VGA RX 6600 8GB GDDR6 | - Fighter RX 6600",
+            "description": "VGA RX 6600 8GB GDDR6 | - Fighter RX 6600",
+            "image": "fighter rx 6600.jpg",
+            "price": "Rp. 2.035.000",
+            "link": "https://tokopedia.link/leJW0fRhGPb"
+        },
+        { 
+            "name": "VGA AMD RADEON RX 6600 8GB GDDR6 - RX 6600 NON XT",
+            "description": "VGA AMD RADEON RX 6600 8GB GDDR6",
+            "image": "rx 6600 8gb dual.jpg",
+            "price": "Rp. 2.442.000",
+            "link": "https://tokopedia.link/lVhjH3EhGPb"
+        },
+        { 
+            "name": "Casing PC Raptor Pluto + 2 Fan RGB mATX",
+            "description": "Casing PC Raptor Pluto RGB M-ATX",
+            "image": "raptor pluto 2 fan.jpg",
+            "price": "Rp. 285.000",
+            "link": "https://tokopedia.link/2k74qZvhGPb"
+        },
+        { 
+            "name": "Power Supply | PSU FSP HV PRO 550W 80+ Bronze",
+            "description": "Power Supply | PSU FSP HV PRO 550W 80+ Bronze",
+            "image": "hv pro 550w.jpg",
+            "price": "Rp. 665.000",
+            "link": "https://tokopedia.link/H40j14nhGPb"
+        },
+        { 
+            "name": "ADATA XPG D35 DDR4 3200 16GB KIT (2x8GB) MEMORY RAM PC DUAL CHANNEL",
+            "description": "ADATA XPG D35 DDR4 3200 16GB KIT (2x8GB) MEMORY RAM PC DUAL CHANNEL",
+            "image": "adata kit 16gb ddr4.jpg",
+            "price": "Rp. 545.000",
+            "link": "https://tokopedia.link/9lBeFbfhGPb"
+        },
+        { 
+            "name": "Casing PC Gaming Infinity Noir M-ATX Tempered Glass",
+            "description": "Casing PC Gaming Infinity Noir M-ATX Tempered Glass Non Fan - Putih",
+            "image": "Infinity noir.jpg",
+            "price": "Rp. 260.000",
+            "link": "https://tokopedia.link/p5TkZgYgGPb"
+        },
+        { 
+            "name": "SSD ADATA LEGEND 900 512GB M.2 NVME PCIe Gen4x4",
+            "description": "SSD ADATA LEGEND 900 512GB M.2 NVME PCIe Gen4x4",
+            "image": "adata legend 900.jpg",
+            "price": "Rp. 625.000",
+            "link": "https://tokopedia.link/rh6WYINgGPb"
+        },
+        { 
+            "name": "PROCESSOR AMD RYZEN 5 5600 TRAY 3.5 GHZ AM4",
+            "description": "PROCESSOR AMD RYZEN 5 5600 TRAY GHZ AM4",
+            "image": "ryzen 5 5600.jpg",
+            "price": "Rp. 1.322.001",
+            "link": "https://tokopedia.link/YnJsZdFaBPb"
+        },
+        { 
+            "name": "MSI B550M A PRO AMD AM4 B550 DDR4 Motherboard",
+            "description": "MSI B550M A PRO AMD AM4 B550 DDR4 Motherboard",
+            "image": "msi b550.jpg",
+            "price": "Rp. 1.095.000",
+            "link": "https://tokopedia.link/GZkx6fugGPb"
+        },
+        { 
+            "name": "Segotep E4 Tower 120mm ARGB CPU Cooler",
+            "description": "Fan cooler segotep e4 argb",
+            "image": "segotep e4.jpg",
+            "price": "Rp. 165.000",
+            "link": "https://tokopedia.link/zJaKXj94FPb"
+        },
+        { 
             "name": "Deepcool AG400 LED FIX - CPU COOLER",
             "description": "Deepcool AG400 LED FIX - CPU fan COOLER",
             "image": "ag400.jpg",
