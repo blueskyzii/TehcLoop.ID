@@ -1,0 +1,307 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #9fdcff;
+}
+
+/* Banner Styles */
+.banner-container {
+    background-color: #2a9d8f;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    position: relative;
+}
+
+.banner-name {
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.banner-description {
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+.banner-description strong {
+    color: #eeff00;
+    font-weight: bold;
+}
+
+.search-container {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.search-box {
+    width: 100%;
+    max-width: 400px;
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+/* Grid Layout for Product Cards */
+.product-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+    gap: 20px;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}  
+
+.product-card {
+    width: 90%;
+    min-height: 310px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    border: 1px solid #ccc;
+    background-color: white;
+    border-radius: 8px;
+    overflow: hidden;
+    padding: 10px;
+    font: bold;  
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+a.product-card {
+    text-decoration: none !important;
+    color: black;
+}
+
+.product-card:hover {
+    background-color: #cdcbcb;
+}
+
+.product-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.product-name {
+    margin-top: 1px;
+    margin-left: 1px;
+    margin-right: 1px;
+    text-align: center;
+    font-size: 14px
+}
+
+.product-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.product-price {
+    position: absolute;
+    bottom: 3px;
+    left: 50%;
+    transform: translateX(-50%); /* Untuk memastikan harga berada di tengah */
+    text-align: center;
+    font-size: 14px;
+    font-weight: bold;
+    background: #e0e0e0;
+    padding: 4px 12px; /* Padding untuk memberi jarak dengan teks */
+    border-radius: 4px;
+    font: bold;
+    color: black;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); /* Efek shadow untuk memberi kesan box */
+    width: 80%; /* Membuat lebar sesuai dengan konten */
+}
+
+.btn-buy {
+    margin-top: 15px;
+    background-color: #2a9d8f;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.btn-buy:hover {
+    background-color: #175c54;
+}
+
+.profile-container {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    z-index: 1000;
+}
+
+.profile-button {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    cursor: pointer;
+    border: 2px solid #ddd;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.profile-button:hover {
+   
+    opacity: 0.8;
+}
+
+/* Profile Menu Styles */
+.profile-menu {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 300px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    z-index: 199999;
+}
+
+.profile-header {
+    margin-bottom: 20px;
+}
+
+.profile-content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.social-media {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.social-media p {
+    margin-right: 10px;
+}
+
+.close-button-container {
+    margin-top: auto;
+    text-align: center;
+}
+
+.close-button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+}
+  
+  
+.profile-content {
+    font-size: 16px;
+}
+  
+.profile-content ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+  
+.profile-content li {
+    margin-bottom: 10px;
+}
+  
+.profile-content a {
+    text-decoration: none;
+    color: #337ab7;
+}
+  
+.profile-content a:hover {
+    color: #23527c;
+}
+  
+.fa-brands {
+    margin-right: 10px;
+}  
+
+/* Notification Styles */
+.notification {
+    position: fixed;
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #4CAF50;
+    color: white;
+    padding: 15px;
+    border-radius: 5px;
+    display: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    z-index: 1000;
+}
+
+/* Responsif untuk tampilan tablet */
+
+/* Responsif untuk tampilan mobile */
+@media only screen and (max-width: 480px) {
+    .banner-name {
+        font-size: 24px
+    }
+
+    .banner-description {
+        font-size: 13px;
+        margin-top: 10px;
+    }
+
+    .product-container {
+        grid-template-columns: repeat(2, minmax(140px, 1fr));
+        margin-right: 15px;
+    }
+    .product-card {
+        width: 95%;
+        min-height: 250px;
+    }
+
+    .product-image {
+        width: 100%;
+        height: 80%;
+    }
+
+    .product-name {
+        font-size: 11px;
+    }
+
+    .product-price {
+        font-size: 12px;
+    }
+
+}
+
+@media only screen and (min-width: 412px) and (max-width: 768px) {
+
+  }
+  
+  @media only screen and (min-width: 769px) and (max-width: 1024px) {
+    .product-container {
+      grid-template-columns: repeat(3, minmax(150px, 1fr));
+    }
+    .product-card {
+      width: 90%;
+      min-height: 200px;
+    }
+  }
+  
+  @media only screen and (max-width: 411px) {
+    .product-container {
+      grid-template-columns: repeat(1, minmax(180px, 1fr));
+    }
+    .product-card {
+      width: 95%;
+      min-height: 220px;
+    }
+  }
+  
