@@ -247,7 +247,7 @@ a.product-card {
 /* Responsif untuk tampilan tablet */
 
 /* Responsif untuk tampilan mobile */
-@media only screen and (max-width: 480px) {
+@media only screen and (min-width: 412px) and (max-width: 1024) {
     .banner-name {
         font-size: 24px
     }
@@ -279,29 +279,54 @@ a.product-card {
         font-size: 12px;
     }
 
+    .profile-container {
+        top: 20%;
+    }
+
+    .profile-container {
+        position: fixed;
+        top: auto;
+        bottom: 20px;
+        left: 20px;
+    }
 }
 
-@media only screen and (min-width: 412px) and (max-width: 768px) {
+@media only screen and (max-width: 412px) {
+    .banner-name {
+        font-size: 22px
+    }
 
-  }
-  
-  @media only screen and (min-width: 769px) and (max-width: 1024px) {
+    .banner-description {
+        font-size: 11px;
+        margin-top: 10px;
+    }
+
     .product-container {
-      grid-template-columns: repeat(3, minmax(150px, 1fr));
+        grid-template-columns: repeat(2, minmax(140px, 1fr));
+        margin-right: 15px;
     }
     .product-card {
-      width: 90%;
-      min-height: 200px;
+        width: 95%;
+        min-height: 250px;
     }
-  }
-  
-  @media only screen and (max-width: 411px) {
-    .product-container {
-      grid-template-columns: repeat(1, minmax(180px, 1fr));
+
+    .product-image {
+        width: 100%;
+        height: 80%;
     }
-    .product-card {
-      width: 95%;
-      min-height: 220px;
+
+    .product-name {
+        font-size: 11px;
     }
-  }
-  
+
+    .product-price {
+        font-size: 12px;
+    }
+
+    .profile-container {
+        position: fixed;
+        top: auto;
+        bottom: 10px;
+        left: 10px;
+    }
+}
