@@ -1,6 +1,13 @@
 {
     "productList": [
         { 
+            "name": "Deepcool AG400 LED FIX - CPU COOLER",
+            "description": "Deepcool AG400 LED FIX - CPU fan COOLER",
+            "image": "ag400.jpg",
+            "price": "Rp. 239.000",
+            "link": "https://tokopedia.link/gGS2dNrAFPb"
+        },
+        { 
             "name": "VGA RX 580 8GB DDR5 256bit | 6+8 pin Power",
             "description": "VGA RX 580 8GB DDR5 256bit",
             "image": "powercolor rx 580.jpg",
