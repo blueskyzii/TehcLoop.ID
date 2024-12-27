@@ -1,6 +1,47 @@
 {
     "productList": [
         { 
+            "name": "VGA RX 580 8GB DDR5 256bit | 6+8 pin Power",
+            "description": "VGA RX 580 8GB DDR5 256bit",
+            "image": "powercolor rx 580.jpg",
+            "price": "Rp. 950.000",
+            "link": "https://tokopedia.link/KRKdhjvtFPb"
+        },
+        { 
+            "name": "Kabel SATA",
+            "description": "Kabel sata",
+            "image": "kabelsata.jpg",
+            "price": "Rp. 7.800",
+            "link": "https://tokopedia.link/Wbs4K81kFPb"
+        },
+        {  
+            "name": "Kabel Power PSU 1.5M Berkualitas",  
+            "description": "Kabel Power PSU",  
+            "image": "kabelpsu.png",  
+            "price": "Rp 7.500",  
+            "link": "https://tokopedia.link/z9Wf7UmiFPb" 
+        },
+        {  
+            "name": "SEAGATE Baracuda HDD 500GB 7200RPM | Garansi 1 tahun Power on time 0",  
+            "description": "HDD Seagate baracuda 500GB HDD SATA",  
+            "image": "baracuda500gb.jpg",  
+            "price": "Rp. 90.000",  
+            "link": "https://tokopedia.link/0AMUAoyhFPb" 
+        },
+        {  
+            "name": "Bundle Keyboard Mouse Wired Gaming :v",  
+            "description": "Keyboard Mouse Bundle Paket gaming",  
+            "image": "kbmouse.jpg",  "price": "Rp. 105.000",  
+            "link": "https://tokopedia.link/2gIVM1mhFPb" 
+        },
+        {  
+            "name": "HD 5770 1GB DDR5 1x6 Power | 900p GTA V Normal/Genshin Lowest Lancar", 
+            "description": "VGA Card Powercolor HD5770 1GB DDR5",  
+            "image": "hd5770.jpg",  
+            "price": "Rp. 245.000",  
+            "link": "https://tokopedia.link/OrRnHcyYEPb" 
+        },
+        { 
             "name": "SSD DST 128GB SATA",
             "description": "ssdsatadst128gb",
             "image": "dst128gb.jpg", 
