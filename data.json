@@ -1,6 +1,34 @@
 {
     "productList": [
         { 
+            "name": "PSU Corsair VS450 | 450W",
+            "description": "psu corsair vs450",
+            "image": "vs450.jpg",
+            "price": "Rp. 300.000",
+            "link": "https://tokopedia.link/jpeNrUkqGPb"
+        },
+        { 
+            "name": "CASING CPU PC STANDARD OFFICE LAYAK PAKAI",
+            "description": "CASING CPU PC STANDARD OFFICE",
+            "image": "casing 55k.jpg",
+            "price": "Rp. 55.000",
+            "link": "https://tokopedia.link/nwoQALroGPb"
+        },
+        { 
+            "name": "Processor Intel Core i5 4570 Tray Socket 1150",
+            "description": "Processor Intel Core i5 4570 Tray Socket 1150",
+            "image": "core i5 4570.png",
+            "price": "Rp. 252.000",
+            "link": "https://tokopedia.link/FPXuFd4lGPb"
+        },
+        { 
+            "name": "VGA Asus GTX 1050ti 4GB DDR5",
+            "description": "Vga Asus GTX 1050ti 4gb ddr5",
+            "image": "1050ti 950k.jpg",
+            "price": "Rp. 950.000",
+            "link": "https://tokopedia.link/HNzZtWzkGPb"
+        },
+        { 
             "name": "VGA RX 6600 8GB GDDR6 | - Fighter RX 6600",
             "description": "VGA RX 6600 8GB GDDR6 | - Fighter RX 6600",
             "image": "fighter rx 6600.jpg",
@@ -159,13 +187,6 @@
             "image": "i3 3240.jpg",
             "price": "Rp 55,000",
             "link": "https://tokopedia.link/D2zH5ksdBPb"
-        },
-        {
-            "name": "Intel Core i5-4570 Intel 4th Generation LGA 1150",
-            "description": "ProcessorCPUIntelcorei54570Gen4LGA1150",
-            "image": "i3 3240.jpg",
-            "price": "Rp 55,000",
-            "link": "https://tokopedia.link/RGAvmYadDPb"
         },
         {
             "name": "Intel Core i5-3470 Intel 3rd Generation LGA 1155",
