@@ -1,6 +1,13 @@
 {
     "productList": [
         { 
+            "name": "Motherboard H81 Intel LGA 1150",
+            "description": "Motherboard H81 Intel LGA 1150 | Merk ECS, ASUS, Gigabyte, ASROCK, BIOSTAR",
+            "image": "ecs h81 250k.jpg",
+            "price": "Rp. 250.300",
+            "link": "https://tokopedia.link/gI6gUjKZGPb"
+        },
+        { 
             "name": "PSU Corsair VS450 | 450W",
             "description": "psu corsair vs450",
             "image": "vs450.jpg",
@@ -157,8 +164,8 @@
             "name": "Motherboard Gigabyte H81M-DS2 LGA 1150",
             "description": "motherboardgigabyteh81mds2mobogigabytegigabith81lga1150",
             "image": "h81 200k.webp", 
-            "price": "Rp. 325.000", 
-            "link": "https://tokopedia.link/GvPqZWytBPb"
+            "price": "Rp. 265.200", 
+            "link": "https://tokopedia.link/v3ANO5vWEPb"
         },
         { 
             "name": "SSD SATA III V-Gen 128GB | V-Gen Rescue",
@@ -179,7 +186,7 @@
             "description": "motherboardgigabyteh81mds2mobogigabytegigabith81lga1150",
             "image": "Asrock H110M.jpg",
             "price": "Rp. 325.000",
-            "link": "https://tokopedia.link/v3ANO5vWEPb"
+            "link": "https://tokopedia.link/GvPqZWytBPb"
         },
         {
             "name": "Intel Core i3-3240 Intel 3rd Generation LGA 1155",
