@@ -1,6 +1,41 @@
 {
     "productList": [
         { 
+            "name": "CASING INFINITY NOIR FREE 3 FAN - mATX GAMING CASE - WHITE",
+            "description": "CASING INFINITY NOIR FREE 3 FAN - mATX GAMING CASE - WHITE",
+            "image": "noir 3fan.jpg",
+            "price": "Rp. 325.000",
+            "link": "https://tokopedia.link/e7dgmzKmWPb"
+        },
+        { 
+            "name": "PSU FSP HV PRO 550w 80+",
+            "description": "PSU FPS HV  PRO 550W 80+",
+            "image": "enter hv 550w.jpg",
+            "price": "Rp. 683.000",
+            "link": "https://tokopedia.link/BRCMrIwmWPb"
+        },
+        { 
+            "name": "Powercolor RX 580 8GB GDDR5",
+            "description": "RX 580 8GB GDDR5 Powercolor",
+            "image": "rx 580 8gb new.jpg",
+            "price": "Rp. 1.150.000",
+            "link": "https://tokopedia.link/WlquL76lWPb"
+        },
+        { 
+            "name": "Powercolor RX 570 8GB | 6 Pin Power",
+            "description": "VGA CARD RX 570 8GB Powercolor",
+            "image": "rx 570 8gb.jpg",
+            "price": "Rp. 999.000",
+            "link": "https://tokopedia.link/tCeCMLqlWPb"
+        },
+        { 
+            "name": "HDD SATA 1TB | HDD+KB SATA",
+            "description": "HDD HARDISK SATA 1TB",
+            "image": "hdd 1tb.jpg",
+            "price": "Rp. 235.800",
+            "link": "https://tokopedia.link/huwTsnQkWPb"
+        },
+        { 
             "name": "Motherboard H81 Intel LGA 1150",
             "description": "Motherboard H81 Intel LGA 1150 | Merk ECS, ASUS, Gigabyte, ASROCK, BIOSTAR",
             "image": "ecs h81 250k.jpg",
