@@ -244,6 +244,27 @@ a.product-card {
     z-index: 1000;
 }
 
+.categories {
+    display: flex;
+    justify-content: center; /* Pusatkan elemen secara horizontal */
+    gap: 10px;
+    margin-bottom: 20px;
+    flex-wrap: wrap;
+}
+
+.category-btn {
+    padding: 10px 15px;
+    background-color: #1c5779;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s; /* Animasi untuk hover */
+}
+
+.category-btn:hover {
+    background-color: #105048;
+}
 
 @media only screen and (max-width: 430px) {
     .banner-name {

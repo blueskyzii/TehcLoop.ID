@@ -3,6 +3,7 @@
         { 
             "name": "CASING INFINITY NOIR FREE 3 FAN - mATX GAMING CASE - WHITE",
             "description": "CASING INFINITY NOIR FREE 3 FAN - mATX GAMING CASE - WHITE",
+            "category": "Casing",
             "image": "noir 3fan.jpg",
             "price": "Rp. 325.000",
             "link": "https://tokopedia.link/e7dgmzKmWPb"
@@ -10,13 +11,15 @@
         { 
             "name": "PSU FSP HV PRO 550w 80+",
             "description": "PSU FPS HV  PRO 550W 80+",
+            "category": "PSU",
             "image": "enter hv 550w.jpg",
             "price": "Rp. 683.000",
             "link": "https://tokopedia.link/BRCMrIwmWPb"
         },
         { 
             "name": "Powercolor RX 580 8GB GDDR5",
-            "description": "RX 580 8GB GDDR5 Powercolor",
+            "description": "VGA RX 580 8GB GDDR5 Powercolor",
+            "category": "VGA",
             "image": "rx 580 8gb new.jpg",
             "price": "Rp. 1.150.000",
             "link": "https://tokopedia.link/WlquL76lWPb"
@@ -24,6 +27,7 @@
         { 
             "name": "Powercolor RX 570 8GB | 6 Pin Power",
             "description": "VGA CARD RX 570 8GB Powercolor",
+            "category": "VGA",
             "image": "rx 570 8gb.jpg",
             "price": "Rp. 999.000",
             "link": "https://tokopedia.link/tCeCMLqlWPb"
@@ -31,6 +35,7 @@
         { 
             "name": "HDD SATA 1TB | HDD+KB SATA",
             "description": "HDD HARDISK SATA 1TB",
+            "category": "HDD",
             "image": "hdd 1tb.jpg",
             "price": "Rp. 235.800",
             "link": "https://tokopedia.link/huwTsnQkWPb"
@@ -38,6 +43,7 @@
         { 
             "name": "Motherboard H81 Intel LGA 1150",
             "description": "Motherboard H81 Intel LGA 1150 | Merk ECS, ASUS, Gigabyte, ASROCK, BIOSTAR",
+            "category": "Mobo",
             "image": "ecs h81 250k.jpg",
             "price": "Rp. 250.300",
             "link": "https://tokopedia.link/gI6gUjKZGPb"
@@ -45,6 +51,7 @@
         { 
             "name": "PSU Corsair VS450 | 450W",
             "description": "psu corsair vs450",
+            "category": "PSU",
             "image": "vs450.jpg",
             "price": "Rp. 300.000",
             "link": "https://tokopedia.link/jpeNrUkqGPb"
@@ -52,6 +59,7 @@
         { 
             "name": "CASING CPU PC STANDARD OFFICE LAYAK PAKAI",
             "description": "CASING CPU PC STANDARD OFFICE",
+            "category": "Casing",
             "image": "casing 55k.jpg",
             "price": "Rp. 55.000",
             "link": "https://tokopedia.link/nwoQALroGPb"
@@ -59,6 +67,7 @@
         { 
             "name": "Processor Intel Core i5 4570 Tray Socket 1150",
             "description": "Processor Intel Core i5 4570 Tray Socket 1150",
+            "category": "CPU",
             "image": "core i5 4570.png",
             "price": "Rp. 252.000",
             "link": "https://tokopedia.link/FPXuFd4lGPb"
@@ -66,6 +75,7 @@
         { 
             "name": "VGA Asus GTX 1050ti 4GB DDR5",
             "description": "Vga Asus GTX 1050ti 4gb ddr5",
+            "category": "VGA",
             "image": "1050ti 950k.jpg",
             "price": "Rp. 950.000",
             "link": "https://tokopedia.link/HNzZtWzkGPb"
@@ -73,6 +83,7 @@
         { 
             "name": "VGA RX 6600 8GB GDDR6 | - Fighter RX 6600",
             "description": "VGA RX 6600 8GB GDDR6 | - Fighter RX 6600",
+            "category": "VGA",
             "image": "fighter rx 6600.jpg",
             "price": "Rp. 2.035.000",
             "link": "https://tokopedia.link/leJW0fRhGPb"
@@ -80,6 +91,7 @@
         { 
             "name": "VGA AMD RADEON RX 6600 8GB GDDR6 - RX 6600 NON XT",
             "description": "VGA AMD RADEON RX 6600 8GB GDDR6",
+            "category": "VGA",
             "image": "rx 6600 8gb dual.jpg",
             "price": "Rp. 2.442.000",
             "link": "https://tokopedia.link/lVhjH3EhGPb"
@@ -87,6 +99,7 @@
         { 
             "name": "Casing PC Raptor Pluto + 2 Fan RGB mATX",
             "description": "Casing PC Raptor Pluto RGB M-ATX",
+            "category": "Casing",
             "image": "raptor pluto 2 fan.jpg",
             "price": "Rp. 285.000",
             "link": "https://tokopedia.link/2k74qZvhGPb"
@@ -94,6 +107,7 @@
         { 
             "name": "Power Supply | PSU FSP HV PRO 550W 80+ Bronze",
             "description": "Power Supply | PSU FSP HV PRO 550W 80+ Bronze",
+            "category": "PSU",
             "image": "hv pro 550w.jpg",
             "price": "Rp. 665.000",
             "link": "https://tokopedia.link/H40j14nhGPb"
@@ -101,6 +115,7 @@
         { 
             "name": "ADATA XPG D35 DDR4 3200 16GB KIT (2x8GB) MEMORY RAM PC DUAL CHANNEL",
             "description": "ADATA XPG D35 DDR4 3200 16GB KIT (2x8GB) MEMORY RAM PC DUAL CHANNEL",
+            "category": "RAM",
             "image": "adata kit 16gb ddr4.jpg",
             "price": "Rp. 545.000",
             "link": "https://tokopedia.link/9lBeFbfhGPb"
@@ -108,6 +123,7 @@
         { 
             "name": "Casing PC Gaming Infinity Noir M-ATX Tempered Glass",
             "description": "Casing PC Gaming Infinity Noir M-ATX Tempered Glass Non Fan - Putih",
+            "category": "Casing",
             "image": "casing noir.jpg",
             "price": "Rp. 260.000",
             "link": "https://tokopedia.link/p5TkZgYgGPb"
@@ -115,6 +131,7 @@
         { 
             "name": "SSD ADATA LEGEND 900 512GB M.2 NVME PCIe Gen4x4",
             "description": "SSD ADATA LEGEND 900 512GB M.2 NVME PCIe Gen4x4",
+            "category": "SSD",
             "image": "adata legend 900.jpg",
             "price": "Rp. 625.000",
             "link": "https://tokopedia.link/rh6WYINgGPb"
@@ -122,6 +139,7 @@
         { 
             "name": "PROCESSOR AMD RYZEN 5 5600 TRAY 3.5 GHZ AM4",
             "description": "PROCESSOR AMD RYZEN 5 5600 TRAY GHZ AM4",
+            "category": "CPU",
             "image": "ryzen 5 5600.jpg",
             "price": "Rp. 1.322.001",
             "link": "https://tokopedia.link/YnJsZdFaBPb"
@@ -129,6 +147,7 @@
         { 
             "name": "MSI B550M A PRO AMD AM4 B550 DDR4 Motherboard",
             "description": "MSI B550M A PRO AMD AM4 B550 DDR4 Motherboard",
+            "category": "Mobo",
             "image": "msi b550.jpg",
             "price": "Rp. 1.095.000",
             "link": "https://tokopedia.link/GZkx6fugGPb"
@@ -136,6 +155,7 @@
         { 
             "name": "Segotep E4 Tower 120mm ARGB CPU Cooler",
             "description": "Fan cooler segotep e4 argb",
+            "category": "Cooler",
             "image": "segotep e4.jpg",
             "price": "Rp. 165.000",
             "link": "https://tokopedia.link/zJaKXj94FPb"
@@ -144,6 +164,7 @@
         { 
             "name": "Deepcool AG400 LED FIX - CPU COOLER",
             "description": "Deepcool AG400 LED FIX - CPU fan COOLER",
+            "category": "Cooler",
             "image": "ag400.jpg",
             "price": "Rp. 239.000",
             "link": "https://tokopedia.link/gGS2dNrAFPb"
@@ -151,6 +172,7 @@
         { 
             "name": "VGA RX 580 8GB DDR5 256bit | 6+8 pin Power",
             "description": "VGA RX 580 8GB DDR5 256bit",
+            "category": "VGA",
             "image": "powercolor rx 580.jpg",
             "price": "Rp. 950.000",
             "link": "https://tokopedia.link/KRKdhjvtFPb"
@@ -158,6 +180,7 @@
         { 
             "name": "Kabel SATA",
             "description": "Kabel sata",
+            "category": "Other",
             "image": "kabelsata.jpg",
             "price": "Rp. 7.800",
             "link": "https://tokopedia.link/Wbs4K81kFPb"
@@ -165,6 +188,7 @@
         {  
             "name": "Kabel Power PSU 1.5M Berkualitas",  
             "description": "Kabel Power PSU",  
+            "category": "Other",
             "image": "kabelpsu.png",  
             "price": "Rp 7.500",  
             "link": "https://tokopedia.link/z9Wf7UmiFPb" 
@@ -172,6 +196,7 @@
         {  
             "name": "SEAGATE Baracuda HDD 500GB 7200RPM | Garansi 1 tahun Power on time 0",  
             "description": "HDD Seagate baracuda 500GB HDD SATA",  
+            "category": "HDD",
             "image": "baracuda500gb.jpg",  
             "price": "Rp. 90.000",  
             "link": "https://tokopedia.link/0AMUAoyhFPb" 
@@ -179,12 +204,14 @@
         {  
             "name": "Bundle Keyboard Mouse Wired Gaming :v",  
             "description": "Keyboard Mouse Bundle Paket gaming",  
+            "category": "Other",
             "image": "kbmouse.jpg",  "price": "Rp. 105.000",  
             "link": "https://tokopedia.link/2gIVM1mhFPb" 
         },
         {  
             "name": "HD 5770 1GB DDR5 1x6 Power | 900p GTA V Normal/Genshin Lowest Lancar", 
             "description": "VGA Card Powercolor HD5770 1GB DDR5",  
+            "category": "VGA",
             "image": "hd5770.jpg",  
             "price": "Rp. 245.000",  
             "link": "https://tokopedia.link/OrRnHcyYEPb" 
@@ -192,6 +219,7 @@
         { 
             "name": "SSD DST 128GB SATA",
             "description": "ssdsatadst128gb",
+            "category": "SSD",
             "image": "dst128gb.jpg", 
             "price": "Rp. 114.000", 
             "link": "https://tokopedia.link/jn5IO6gFDPb"
@@ -199,6 +227,7 @@
         { 
             "name": "Motherboard Gigabyte H81M-DS2 LGA 1150",
             "description": "motherboardgigabyteh81mds2mobogigabytegigabith81lga1150",
+            "category": "Mobo",
             "image": "h81 200k.webp", 
             "price": "Rp. 265.200", 
             "link": "https://tokopedia.link/v3ANO5vWEPb"
@@ -206,6 +235,7 @@
         { 
             "name": "SSD SATA III V-Gen 128GB | V-Gen Rescue",
             "description": "ssdsatavgen128gb",
+            "category": "SSD",
             "image": "ssd vgen 128.webp", 
             "price": "Rp. 124.800", 
             "link": "https://tokopedia.link/rToiylxKzPb"
@@ -213,6 +243,7 @@
         { 
             "name": "Intel Core i3-6100 LGA1151 Intel 6th Generation",
             "description": "ProcessorCPUIntelCorei36100LGA1151Intel6thGeneration",
+            "category": "CPU",
             "image": "i3 6100.webp", 
             "price": "Rp. 145.000", 
             "link": "https://tokopedia.link/WJikrI7tBPb"
@@ -220,6 +251,7 @@
         {
             "name": "Motherboard H110 | Asrock H110M-D4 M1 DDR4",
             "description": "motherboardgigabyteh81mds2mobogigabytegigabith81lga1150",
+            "category": "Mobo",
             "image": "Asrock H110M.jpg",
             "price": "Rp. 325.000",
             "link": "https://tokopedia.link/GvPqZWytBPb"
@@ -227,6 +259,7 @@
         {
             "name": "Intel Core i3-3240 Intel 3rd Generation LGA 1155",
             "description": "ProcessorCPUIntelcorei33240Gen3rdLGA1155",
+            "category": "CPU",
             "image": "i3 3240.jpg",
             "price": "Rp 55,000",
             "link": "https://tokopedia.link/D2zH5ksdBPb"
@@ -234,6 +267,7 @@
         {
             "name": "Intel Core i5-3470 Intel 3rd Generation LGA 1155",
             "description": "ProcessorCPUIntelcorei53470Gen3LGA1155",
+            "category": "CPU",
             "image": "i5 3470.jpg",
             "price": "Rp 150,000",
             "link": "https://tokopedia.link/sU17JqwdDPb"
@@ -241,6 +275,7 @@
         {
             "name": "Intel Core i5-2500 Intel 2nd Generation LGA 1155",
             "description": "ProcessorCPUIntelcorei52500Gen2LGA1155",
+            "category": "CPU",
             "image": "i3 2500.jpg",
             "price": "Rp 120,000",
             "link": "https://tokopedia.link/xW21lNKdDPb"
@@ -248,6 +283,7 @@
         {
             "name": "Paketan Mobo G41 include Processor+Fan+Backplate",
             "description": "paketanmotherboardg41lga775",
+            "category": "Mobo",
             "image": "paket g41.webp",
             "price": "Rp 150,000",
             "link": "https://tokopedia.link/K8NptAXrBPb"
@@ -255,6 +291,7 @@
         {
             "name": "Motherboard Foxconn H61 LGA1155",
             "description": "motherboardmobomotherboardfoxconnh61lga1155",
+            "category": "Mobo",
             "image": "foxconn h61.webp",
             "price": "Rp 179,300",
             "link": "https://tokopedia.link/f97gigiKzPb"
@@ -262,6 +299,7 @@
         {
             "name": "Motherboard H81 LGA1150 | ECS H81",
             "description": "motherboardmobomotherboardecsh81lga1150",
+            "category": "Mobo",
             "image": "ecs h81.jpg",
             "price": "Rp 200.000 - 245.000",
             "link": "https://tokopedia.link/wwSLPbRcDPb"
@@ -269,6 +307,7 @@
         {
             "name": "Deepcool CK-11509 Fan CPU LGA 775/1156/1155/1150",
             "description": "heatsinkdeepcoolck11509fanhsfintellga1156115011551151775",
+            "category": "Cooler",
             "image": "deepcool fan.webp",
             "price": "Rp 41,000",
             "link": "https://tokopedia.link/U7CNteBuBPb"
@@ -276,6 +315,7 @@
         {
             "name": "NYK Nemesis Windranger F9 RGB | Fan Intel/AMD TDP Up to 100W",
             "description": "heatsinkfannemesisnykwindrangerf9 AMD AM2/AM2+/AM3/AM3+/AM4 100W",
+            "category": "Cooler",
             "image": "nemesis.jpg",
             "price": "Rp 80,000",
             "link": "https://tokopedia.link/vSWO6lKaDPb"
@@ -283,6 +323,7 @@
         {
             "name": "HSF INTEL ORIGINAL LGA 1156/1155/1150/1151/1200/1700",
             "description": "heatsinkfanhsfintelstandardoriginallga115611501155115112001700",
+            "category": "Cooler",
             "image": "hsf aio.webp",
             "price": "Rp 20,000",
             "link": "https://tokopedia.link/k4yEi0ouBPb"
@@ -290,6 +331,7 @@
         {
             "name": "Jonsbo CR1200 CPU FAN COOLER | Fan Intel/AMD Up to TDP 95W",
             "description": "CPU FAN COOLER HSF RGB PROCESSOR Jonsbo CR 1200 FAN COOLING Intel: LGA 1150/1151/1155/1156/1200/1700 AMD: AM4/AM3 +/AM3/AM2 +/AM2/FM2 +/FM2/FM1 95W",
+            "category": "Cooler",
             "image": "jonsbo1200.jpg",
             "price": "Rp 112,000",
             "link": "https://tokopedia.link/HIltBAzcDPb"
@@ -297,6 +339,7 @@
         {
             "name": "New RX7 GT 740 2GB DDR5 128bit",
             "description": "vgacardrx7 gt 740 2gb ddr5 128bit new",
+            "category": "VGA",
             "image": "rx7 gt 740.jpg",
             "price": "Rp 432,000",
             "link": "https://tokopedia.link/Sz7Ipz8eDPb"
@@ -304,6 +347,7 @@
         {
             "name": "RAM Hynix 4GB PC12800 | DDR3 1600Mhz",
             "description": "ramhynix4gbpc12800ddr31600mhz",
+            "category": "RAM",
             "image": "ram 4gb pc12800.webp",
             "price": "Rp 47,100",
             "link": "https://tokopedia.link/hNcMLFbsBPb"
@@ -311,6 +355,7 @@
         {
             "name": "RAM Hynix 8GB PC12800 | DDR3 1600Mhz",
             "description": "ramhynix8gbpc12800ddr31600mhz",
+            "category": "RAM",
             "image": "ram 8gb pc12800.webp",
             "price": "Rp 80,000",
             "link": "https://tokopedia.link/5X4CYv8FRNb"
@@ -318,6 +363,7 @@
         {
             "name": "RAM Samsung/Hynix 4GB PC19200 | DDR4 2400Mhz",
             "description": "ramsamsunghynix4gbpc19200ddr42400mhz",
+            "category": "RAM",
             "image": "ram 4gb pc19200.webp",
             "price": "Rp 87,300",
             "link": "https://tokopedia.link/RlXZkrQuBPb"
@@ -325,6 +371,7 @@
         {
             "name": "Hardisk WD BLUE 500GB | HDD SATA",
             "description": "hardiskwdblue500gbhddsata",
+            "category": "HDD",
             "image": "hdd 500gb.webp",
             "price": "Rp 88,000",
             "link": "https://tokopedia.link/rToiylxKzPb"
@@ -332,6 +379,7 @@
         {
             "name": "Hardisk WD BLUE 250GB | HDD SATA",
             "description": "hardiskwdblue250gbhddsata",
+            "category": "HDD",
             "image": "hdd 250gb.webp",
             "price": "Rp 55,000",
             "link": "https://tokopedia.link/Yhi4PoosBPb"
@@ -339,6 +387,7 @@
         {
             "name": "Casing standard Include PSU | Tanya stock dulu",
             "description": "casecasingpcpsu",
+            "category": "Casing",
             "image": "case psu.webp",
             "price": "Rp 128,000",
             "link": "https://tokopedia.link/8OO050kuBPb"
@@ -346,6 +395,7 @@
         {
             "name": "PSU Copotan Built UP | Tanya Stock",
             "description": "psupowersuplaisuplaypc",
+            "category": "PSU",
             "image": "PSU 55k.webp",
             "price": "Rp 55,000",
             "link": "https://tokopedia.link/veC7HJatBPb"
@@ -353,6 +403,7 @@
         {
             "name": "PCCooler KF450 450W 80+ PSU",
             "description": "psupccoolerkf45080+powersuplaisuplaypc",
+            "category": "PSU",
             "image": "kf450.jpg",
             "price": "Rp. 400.000",
             "link": "https://tokopedia.link/wIamgiDcDPb"
