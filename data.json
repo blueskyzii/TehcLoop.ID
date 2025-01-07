@@ -1,6 +1,62 @@
 {
     "productList": [
         { 
+            "name": "RAM KINGSTON LONGDIM DDR4 4GB PC19200 2400MHZ",
+            "description": "RAM KINGSTON LONGDIM DDR4 4GB PC19200 2400MHZ",
+            "category": "RAM",
+            "image": "ram 4gb 2400mhz.jpg",
+            "price": "Rp. 75.000",
+            "link": "https://tokopedia.link/0LGkBtU1XPb"
+        },
+        { 
+            "name": "HSF fan Intel soket LGA 1150 / 1151 / 1155 / 1156 | Include thermal paste",
+            "description": "HSF fan Intel soket LGA 1150 / 1151 / 1155 / 1156",
+            "category": "Cooler",
+            "image": "hsf thermal.jpg",
+            "price": "Rp. 29.800",
+            "link": "https://tokopedia.link/WhThHeA1XPb"
+        },
+        { 
+            "name": "Intel Core i3 7100 LGA 1151",
+            "description": "Intel Core i3 7100 LGA 1151",
+            "category": "CPU",
+            "image": "i3 7100.png",
+            "price": "Rp. 225.300",
+            "link": "https://tokopedia.link/rs7yMCk1XPb"
+        },
+        { 
+            "name": "Motherboard Mobo H110 Socket LGA 1151 DDR4 Intel gen 6/7",
+            "description": "Motherboard Mobo H110 Socket LGA 1151 DDR4",
+            "category": "Mobo",
+            "image": "gigabyte h110.jpg",
+            "price": "Rp. 415.500",
+            "link": "https://tokopedia.link/hecMa0Y0XPb"
+        },
+        { 
+            "name": "Thermal Paste HY510 | Standard CPU",
+            "description": "Thermal Paste HY510",
+            "category": "Other",
+            "image": "thermal paste.png",
+            "price": "Rp. 1.148",
+            "link": "https://tokopedia.link/xpMR5x9WXPb"
+        },
+        { 
+            "name": "Processor Intel core i5-4590 LGA 1150",
+            "description": "Processor Intel core i5-4590 LGA 1150",
+            "category": "CPU",
+            "image": "i5 4590.png",
+            "price": "Rp. 265.000",
+            "link": "https://tokopedia.link/Su7v5DVWXPb"
+        },
+        { 
+            "name": "Motherboard KYO KAIZEN H81 DDR3 LGA 1150",
+            "description": "Motherboard KYO KAIZEN H81 DDR3 LGA 1150",
+            "category": "Mobo",
+            "image": "kyo h81.jpg",
+            "price": "Rp. 359.000",
+            "link": "https://tokopedia.link/PACLxHNWXPb"
+        },
+        { 
             "name": "CASING INFINITY NOIR FREE 3 FAN - mATX GAMING CASE - WHITE",
             "description": "CASING INFINITY NOIR FREE 3 FAN - mATX GAMING CASE - WHITE",
             "category": "Casing",
@@ -250,7 +306,7 @@
         },
         {
             "name": "Motherboard H110 | Asrock H110M-D4 M1 DDR4",
-            "description": "motherboardgigabyteh81mds2mobogigabytegigabith81lga1150",
+            "description": "Motherboard H110 DDR4 LGA 1151",
             "category": "Mobo",
             "image": "Asrock H110M.jpg",
             "price": "Rp. 325.000",
