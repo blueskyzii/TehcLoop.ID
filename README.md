@@ -10,14 +10,13 @@ Para pengguna yang telah memberikan saran dan masukan untuk pengembangan fitur i
 
 Update List:
 
-v0.1
-- Update responsive
+v0.5
+- add credit % notification
+- add README.md
 
-v0.1 (link)
-- fix bug link
-
-v0.2 
-- update responsive
+v0.4 (v0.3)
+- edit description
+- upload item
 
 v0.3
 - fix link
@@ -25,10 +24,11 @@ v0.3
 - update item
 - update card product
 
-v0.4 (v0.3)
-- edit description
-- upload item
+v0.2 
+- update responsive
 
-v0.5
-- add credit % notification
-- add README.md
+v0.1 (link)
+- fix bug link
+
+v0.1
+- Update responsive
