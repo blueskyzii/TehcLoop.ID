@@ -44,6 +44,17 @@ body {
     border-radius: 4px;
 }
 
+.site-footer {
+    background-color: #f1f1f1;
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    font-size: 14px;
+    color: #333;
+}
+
 /* Grid Layout for Product Cards */
 .product-container {
     display: grid;
