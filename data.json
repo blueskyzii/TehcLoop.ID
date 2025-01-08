@@ -1,6 +1,22 @@
 {
     "productList": [
         { 
+            "name": "SSD KYO KAIZEN M.2 NVMe 512GB SSD NVMe Gen 3",
+            "description": "SSD KYO KAIZEN M.2 NVMe 512GB PCIe Gen3 x4 2280 SSD NVMe Gen 3",
+            "category": "SSD",
+            "image": "kyo nvme 512gb.jpg",
+            "price": "Rp. 415.000",
+            "link": "https://tokopedia.link/dl3pd4NvZPb"
+        },
+        { 
+            "name": "SSD V-GeN Solid State Drive V-GeN 512GB SATA 3 SSD SATA III VGEN - PLATINUM 512GB",
+            "description": "SSD V-GeN Solid State Drive V-GeN 512GB SATA 3 SSD SATA III VGEN - PLATINUM 512GB",
+            "category": "SSD",
+            "image": "vgen platinum 512gb.jpg",
+            "price": "Rp. 418.000",
+            "link": "https://tokopedia.link/cd3kieHvZPb"
+        },
+        { 
             "name": "E-FFOXPRO AMD R7 350 2GB D5 128BIT NEW Garansi 2 tahun",
             "description": "E-FFOXPRO AMD R7 350 2GB D5 128BIT NEW",
             "category": "VGA",
