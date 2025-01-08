@@ -255,6 +255,88 @@ a.product-card {
     z-index: 1000;
 }
 
+#xUniqueNotifBox {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 90%;
+    width: 350px;
+    background: linear-gradient(135deg, #4caf50, #81c784);
+    color: white;
+    font-family: Arial, sans-serif;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    z-index: 1000;
+    animation: slideIn 0.5s ease-out;
+  }
+
+  @keyframes slideIn {
+    from {
+      opacity: 0;
+      transform: translate(-50%, -60%);
+    }
+    to {
+      opacity: 1;
+      transform: translate(-50%, -50%);
+    }
+  }
+
+  #xUniqueNotifBox .xHeader {
+    background: rgba(0, 0, 0, 0.2);
+    padding: 10px;
+    font-weight: bold;
+    text-align: center;
+    font-size: 16px;
+  }
+
+  #xUniqueNotifBox .xContent {
+    padding: 15px;
+    font-size: 14px;
+    line-height: 1.5;
+  }
+
+  #xUniqueNotifBox ul {
+    padding-left: 20px;
+    margin: 10px 0;
+  }
+
+  #xUniqueNotifBox ul li {
+    margin-bottom: 5px;
+  }
+
+  #xUniqueNotifBox .xFooter {
+    text-align: center;
+    padding: 10px;
+    background: rgba(0, 0, 0, 0.1);
+    font-size: 13px;
+    cursor: pointer;
+  }
+
+  #xUniqueNotifBox .xFooter:hover {
+    background: rgba(0, 0, 0, 0.2);
+  }
+
+  @media only screen and (max-width: 430px) {
+    #xUniqueNotifBox {
+      width: 95%;
+      font-size: 12px;
+    }
+
+    #xUniqueNotifBox .xHeader {
+      font-size: 14px;
+    }
+
+    #xUniqueNotifBox .xContent {
+      padding: 10px;
+    }
+
+    #xUniqueNotifBox .xFooter {
+      padding: 8px;
+    }
+}
+
 .categories {
     display: flex;
     justify-content: center; /* Pusatkan elemen secara horizontal */

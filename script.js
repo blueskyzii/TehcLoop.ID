@@ -98,5 +98,29 @@ function searchItems() {
   }
 }
 
-  
+document.addEventListener("DOMContentLoaded", function () {
+  const notifBox = document.getElementById("xUniqueNotifBox");
+  notifBox.style.display = "block";
+});
+
+function closeNotif() {
+  const notifBox = document.getElementById("xUniqueNotifBox");
+  notifBox.style.animation = "fadeOut 0.5s forwards";
+  notifBox.addEventListener("animationend", () => notifBox.style.display = "none");
+}
+
+/* Fade out animation */
+const styleSheet = document.createElement("style");
+styleSheet.textContent = `
+  @keyframes fadeOut {
+    from {
+      opacity: 1;
+    }
+    to {
+      opacity: 0;
+    }
+  }
+`;
+document.head.appendChild(styleSheet);
+
 displayProducts();
