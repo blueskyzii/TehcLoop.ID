@@ -1,6 +1,22 @@
 {
     "productList": [
         { 
+            "name": "E-FFOXPRO AMD R7 350 2GB D5 128BIT NEW Garansi 2 tahun",
+            "description": "E-FFOXPRO AMD R7 350 2GB D5 128BIT NEW",
+            "category": "VGA",
+            "image": "r7 350 2gb ddr5.jpg",
+            "price": "Rp. 477.001",
+            "link": "https://tokopedia.link/LYiRrSHrZPb"
+        },
+        { 
+            "name": "Processor Intel Core i5 4570 Tray LGA 1150",
+            "description": "Processor Intel Core i5 4570 Tray",
+            "category": "CPU",
+            "image": "i5 4570 a.png",
+            "price": "Rp. 252.000",
+            "link": "https://tokopedia.link/u2iwDZUoZPb"
+        },
+        { 
             "name": "RAM KINGSTON LONGDIM DDR4 4GB PC19200 2400MHZ",
             "description": "RAM KINGSTON LONGDIM DDR4 4GB PC19200 2400MHZ",
             "category": "RAM",
@@ -409,8 +425,8 @@
             "link": "https://tokopedia.link/hNcMLFbsBPb"
         },
         {
-            "name": "RAM Hynix 8GB PC12800 | DDR3 1600Mhz",
-            "description": "ramhynix8gbpc12800ddr31600mhz",
+            "name": "RAM Imperion 8GB PC12800 | DDR3 1600Mhz",
+            "description": "ram imperion 8gbpc12800ddr31600mhz",
             "category": "RAM",
             "image": "ram 8gb pc12800.webp",
             "price": "Rp 80,000",
