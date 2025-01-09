@@ -73,13 +73,14 @@ body {
             var name = trimString(document.getElementById('name').value);
             var description = trimString(document.getElementById('description').value);
             var category = document.getElementById('category').value;
+            var type = document.getElementById('type').value;
             var image = trimString(document.getElementById('image').value);
             var price = trimString(document.getElementById('price').value);
             var link = trimString(document.getElementById('link').value);
 
             // Validasi input
-            if (name === "" || name.length > 100) {
-                alert("Nama produk tidak boleh kosong dan maksimal 100 karakter.");
+            if (name === "" || name.length > 60) {
+                alert("Nama produk tidak boleh kosong dan maksimal 60 karakter.");
                 return;
             }
             if (description === "") {
@@ -88,6 +89,10 @@ body {
             }
             if (category === "") {
                 alert("Kategori produk tidak boleh kosong.");
+                return;
+            }
+            if (type === "") {
+                alert("Tipe produk tidak boleh kosong.");
                 return;
             }
             if (image === "") {
@@ -108,6 +113,7 @@ body {
                 '            "name": "' + name + '",\n' +
                 '            "description": "' + description + '",\n' +
                 '            "category": "' + category + '",\n' +
+                '            "type": "' + type + '",\n' +
                 '            "image": "' + image + '",\n' +
                 '            "price": "' + price + '",\n' +
                 '            "link": "' + link + '"\n' +
@@ -116,7 +122,7 @@ body {
             // Simpan data ke file JSON via batch
             try {
                 var fso = new ActiveXObject("Scripting.FileSystemObject");
-                var jsonFile = "G:\\Project\\HTML\\TehcLoop.ID\\data.json";
+                var jsonFile = "data.json";
 
                 // Cek jika file belum ada, buat file dengan struktur awal
                 if (!fso.FileExists(jsonFile)) {
@@ -151,11 +157,11 @@ body {
 <body>
     <h1>Tambahkan Produk Baru</h1>
     <form>
-        <label>Nama Produk (maks 100 karakter):</label>
-        <input type="text" id="name" maxlength="100">
+        <label>Nama Produk (maks 60 karakter):</label>
+        <input type="text" id="name" maxlength="60">
         <label>Deskripsi Produk:</label>
         <textarea id="description" rows="5"></textarea>
-        <label>Kategori Produk:</label>
+        <label>Kategori dan Type Produk:</label>
         <select id="category">
             <option value="">Pilih Kategori</option>
             <option value="PSU">PSU</option>
@@ -168,6 +174,11 @@ body {
             <option value="Casing">Casing</option>
             <option value="Cooler">Cooler</option>
             <option value="Other">Other</option>
+        </select>
+        <select id="type">
+            <option value="">Pilih Tipe</option>
+            <option value="offer">Offer Item</option>
+            <option value="biasa">Item Biasa</option>
         </select>
         <label>Nama File Gambar:</label>
         <input type="text" id="image">

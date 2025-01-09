@@ -1,6 +1,42 @@
 {
     "productList": [
         { 
+            "name": "Motherboard H81 Socket LGA 1150",
+            "description": "Motherboard H81 Socket LGA 1150",
+            "category": "Mobo",
+            "type": "offer",
+            "image": "h81 195k.jpg",
+            "price": "Rp. 195.000",
+            "link": "https://tokopedia.link/1Kn1CR5O1Pb"
+        },
+        { 
+            "name": "Paket Fan LGA 1150 + CPU Intel G3240 LGA 1150",
+            "description": "Paket Fan LGA 1150 + CPU Intel G3240 LGA 1150",
+            "category": "CPU",
+            "type": "biasa",
+            "image": "g3240+fan.jpg",
+            "price": "Rp. 30.000",
+            "link": "https://tokopedia.link/NU5KxCwO1Pb"
+        },
+        { 
+            "name": "Processor Intel core i3-4150 LGA 1150",
+            "description": "Processor Intel core i3-4150 LGA 1150",
+            "category": "CPU",
+            "type": "biasa",
+            "image": "i3 4150.jpg",
+            "price": "Rp. 55.000",
+            "link": "https://tokopedia.link/r709IliJ1Pb"
+        },
+        { 
+            "name": "RAM 2x4GB DDR3 1600MHz | RAM 8GB DDR3 DUAL Channel",
+            "description": "RAM 2x4GB DDR3 1600MHz | Harga normal 50rb 4GB Sekeping",
+            "category": "RAM",
+            "type": "offer",
+            "image": "ram 2x4gb 70k.jpg",
+            "price": "Rp. 70.000",
+            "link": "https://tokopedia.link/xjGBPQKI1Pb"
+        },
+        { 
             "name": "SSD KYO KAIZEN M.2 NVMe 512GB SSD NVMe Gen 3",
             "description": "SSD KYO KAIZEN M.2 NVMe 512GB PCIe Gen3 x4 2280 SSD NVMe Gen 3",
             "category": "SSD",
@@ -46,13 +82,13 @@
             "link": "https://tokopedia.link/0LGkBtU1XPb"
         },
         { 
-            "name": "HSF fan Intel soket LGA 115x | Include thermal paste",
-            "description": "HSF fan Intel soket LGA 1150 / 1151 / 1155 / 1156",
+            "name": "HSF fan Intel soket LGA 775 & 115x | Include thermal paste",
+            "description": "HSF fan Intel soket LGA 115x",
             "category": "Cooler",
             "type": "offer",
             "image": "hsf thermal.jpg",
-            "price": "Rp. 29.800",
-            "link": "https://tokopedia.link/WhThHeA1XPb"
+            "price": "Rp. 26.500",
+            "link": "https://tokopedia.link/LzcZ4eSO1Pb"
         },
         { 
             "name": "Intel Core i3 7100 LGA 1151",
@@ -334,7 +370,7 @@
             "link": "https://tokopedia.link/2gIVM1mhFPb" 
         },
         {  
-            "name": "HD 5770 1GB DDR5 | 900p GTA V Normal/Genshin Lowest Lancar", 
+            "name": "HD 5770 1GB DDR5 128bit | Cocok Gaming ringan GTA V Genshin 900p", 
             "description": "VGA Card Powercolor HD5770 1GB DDR5",  
             "category": "VGA",
             "type": "offer",
