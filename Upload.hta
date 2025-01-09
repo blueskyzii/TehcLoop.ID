@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Input Produk</title>
+    <style>
+body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            background-color:rgb(204, 204, 204);
+        }
+        h1 {
+            color: #333;
+            text-align: center;
+        }
+        form {
+            position: relative;
+            background:rgb(255, 255, 255);
+            padding: 20px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            max-width: 400px;
+            margin: 20px auto;
+            box-sizing: border-box;
+
+        }
+        label {
+            display: block;
+            margin-bottom: 1px;
+            font-weight: bold;
+            color: #555;
+        }
+        input, textarea {
+            position: relative;
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 3px;
+            font-size: 14px;
+            right: 10px;
+            margin: 5px auto;
+        }
+        button {
+            margin-top: 10px;
+            position: relative;
+            width: 50%;
+            padding: 10px;
+            background-color: #007bff;
+            color: white;
+            cursor: pointer;
+            border: none;
+            bottom: 3px;
+            left: 23%;
+            transform: translateX(-50%); /* Untuk memastikan harga berada di tengah */
+            text-align: center;
+        }
+        button:hover {
+            background-color: #0056b3;
+        }
+        .error {
+            color: red;
+            font-size: 12px;
+        }
+    </style>
+    <script type="text/javascript">
+        // Fungsi utilitas untuk menghapus spasi
+        function trimString(str) {
+            return str.replace(/^\s+|\s+$/g, ""); // Menghapus spasi di awal dan akhir string
+        }
+
+        // Fungsi untuk memproses data
+        function submitData() {
+            // Ambil nilai input dari form
+            var name = trimString(document.getElementById('name').value);
+            var description = trimString(document.getElementById('description').value);
+            var category = document.getElementById('category').value;
+            var image = trimString(document.getElementById('image').value);
+            var price = trimString(document.getElementById('price').value);
+            var link = trimString(document.getElementById('link').value);
+
+            // Validasi input
+            if (name === "" || name.length > 100) {
+                alert("Nama produk tidak boleh kosong dan maksimal 100 karakter.");
+                return;
+            }
+            if (description === "") {
+                alert("Deskripsi produk tidak boleh kosong.");
+                return;
+            }
+            if (category === "") {
+                alert("Kategori produk tidak boleh kosong.");
+                return;
+            }
+            if (image === "") {
+                alert("Nama file gambar tidak boleh kosong.");
+                return;
+            }
+            if (price === "") {
+                alert("Harga produk tidak boleh kosong.");
+                return;
+            }
+            if (link === "") {
+                alert("Link produk tidak boleh kosong.");
+                return;
+            }
+
+            // Buat data baru dalam format JSON
+            var data = "        { \n" +
+                '            "name": "' + name + '",\n' +
+                '            "description": "' + description + '",\n' +
+                '            "category": "' + category + '",\n' +
+                '            "image": "' + image + '",\n' +
+                '            "price": "' + price + '",\n' +
+                '            "link": "' + link + '"\n' +
+                "        },";
+
+            // Simpan data ke file JSON via batch
+            try {
+                var fso = new ActiveXObject("Scripting.FileSystemObject");
+                var jsonFile = "G:\\Project\\HTML\\TehcLoop.ID\\data.json";
+
+                // Cek jika file belum ada, buat file dengan struktur awal
+                if (!fso.FileExists(jsonFile)) {
+                    var file = fso.CreateTextFile(jsonFile, true);
+                    file.WriteLine("{");
+                    file.WriteLine('"productList": [');
+                    file.WriteLine("]"); // Array kosong
+                    file.WriteLine("}");
+                    file.Close();
+                }
+
+                // Sisipkan data ke file JSON
+                var file = fso.OpenTextFile(jsonFile, 1); // Buka untuk membaca
+                var content = file.ReadAll();
+                file.Close();
+
+                // Menambahkan data di dalam array JSON
+                var newContent = content.replace(/"productList": \[/, '"productList": [\n' + data);
+
+                var file = fso.OpenTextFile(jsonFile, 2); // Buka untuk menulis
+                file.Write(newContent);
+                file.Close();
+
+                alert("Data berhasil ditambahkan!");
+                location.reload();
+            } catch (e) {
+                alert("Error: " + e.message);
+            }
+        }
+    </script>
+</head>
+<body>
+    <h1>Tambahkan Produk Baru</h1>
+    <form>
+        <label>Nama Produk (maks 100 karakter):</label>
+        <input type="text" id="name" maxlength="100">
+        <label>Deskripsi Produk:</label>
+        <textarea id="description" rows="5"></textarea>
+        <label>Kategori Produk:</label>
+        <select id="category">
+            <option value="">Pilih Kategori</option>
+            <option value="PSU">PSU</option>
+            <option value="Mobo">Mobo</option>
+            <option value="RAM">RAM</option>
+            <option value="CPU">CPU</option>
+            <option value="VGA">VGA</option>
+            <option value="SSD">SSD</option>
+            <option value="HDD">HDD</option>
+            <option value="Casing">Casing</option>
+            <option value="Cooler">Cooler</option>
+            <option value="Other">Other</option>
+        </select>
+        <label>Nama File Gambar:</label>
+        <input type="text" id="image">
+        <label>Harga Produk:</label>
+        <input type="text" id="price">
+        <label>Link Produk:</label>
+        <input type="text" id="link">
+        <button type="button" onclick="submitData()">Submit</button>
+    </form>
+</body>
+</html>

@@ -13,6 +13,13 @@ xhr.onload = function () {
 };
 xhr.send();
 
+fetch('data.json')
+  .then(response => response.json())
+  .then(data => {
+    const offerItems = data.productList.filter(item => item.type === 'offer');
+    displayOfferItems(offerItems);
+  });
+
 function openProfileMenu() {
   document.getElementById('profileMenu').style.display = 'block';
 }
@@ -21,6 +28,10 @@ function closeProfileMenu() {
   document.getElementById('profileMenu').style.display = 'none';
 }
 
+function filterByCategory(category) {
+  const filteredProducts = allProducts.filter(product => product.category === category);
+  displayProducts(filteredProducts);
+}
 
 function displayCategories(products) {
   const categoryContainer = document.getElementById('categories');
@@ -37,12 +48,37 @@ function displayCategories(products) {
       .join('');
 }
 
-function filterByCategory(category) {
-  const filteredProducts = allProducts.filter(product => product.category === category);
-  displayProducts(filteredProducts);
+function displayOfferItems(offers) {
+  const container = document.getElementById('offerItems');
+  container.innerHTML = ''; // Clear previous content
+
+  offers.forEach(offer => {
+    const offerCard = document.createElement('div');
+    offerCard.classList.add('offer-card');
+
+    // Add attributes for searching
+    offerCard.setAttribute('data-name', offer.name);
+    offerCard.setAttribute('data-description', offer.description);
+
+    const image = offer.image.includes('http') ? offer.image : `Product/${offer.image}`;
+    offerCard.innerHTML = `
+      <img src="${image}" alt="Offer Image" class="offer-image">
+      <div class="offer-info">
+        <h3 class="offer-name">${offer.name}</h3>
+        <p class="offer-price">${offer.price}</p>
+      </div>
+    `;
+
+    // Add click event to open the offer link
+    offerCard.addEventListener('click', () => {
+      window.open(offer.link, '_blank');
+    });
+
+    container.appendChild(offerCard);
+  });
 }
 
-function displayProducts(products) {
+function displayProducts(products) { //function display product non offer
   const container = document.getElementById('Container');
   container.innerHTML = ''; // Bersihkan container
 
@@ -124,3 +160,4 @@ styleSheet.textContent = `
 document.head.appendChild(styleSheet);
 
 displayProducts();
+displayOfferItems();
