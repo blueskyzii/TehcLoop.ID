@@ -29,13 +29,25 @@ function closeProfileMenu() {
 }
 
 function filterByCategory(category) {
-  const filteredProducts = allProducts.filter(product => product.category === category);
+  const filteredProducts = allProducts.filter(product =>
+    Array.isArray(product.category) 
+      ? product.category.includes(category) 
+      : product.category === category
+  );
   displayProducts(filteredProducts);
 }
 
 function displayCategories(products) {
   const categoryContainer = document.getElementById('categories');
-  const categories = [...new Set(products.map(product => product.category))];
+
+  // Mengumpulkan semua kategori unik, termasuk kategori dari array
+  const categories = [
+    ...new Set(
+      products.flatMap(product => 
+        Array.isArray(product.category) ? product.category : [product.category]
+      )
+    )
+  ];
 
   // Tambahkan tombol kategori
   categoryContainer.innerHTML =

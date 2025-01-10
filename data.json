@@ -9,10 +9,10 @@
             "price": "Rp. 195.000",
             "link": "https://tokopedia.link/1Kn1CR5O1Pb"
         },
-        { 
+        {
             "name": "Paket Fan LGA 1150 + CPU Intel G3240 LGA 1150",
             "description": "Paket Fan LGA 1150 + CPU Intel G3240 LGA 1150",
-            "category": "CPU",
+            "category": ["CPU", "Cooler"],
             "type": "biasa",
             "image": "g3240+fan.jpg",
             "price": "Rp. 30.000",
