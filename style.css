@@ -2,16 +2,27 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #defce7;
+    background: linear-gradient(45deg, #1b2935, #090a0f, #1b2735, #202940);
+    background-size: 400% 400%;
+    animation: backgroundAnimation 15s ease infinite;
+    color: #ffffff; /* Sesuaikan warna teks agar cocok dengan dark mode */
+}
+
+@keyframes backgroundAnimation {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
 }
 
 /* Banner Styles */
 .banner-container {
-    background-color: #03882b;
-    color: white;
+    background-color: #243547; /* Warna yang sesuai dengan tema angkasa */
+    color: #ffffff; /* Warna teks putih untuk kontras */
     padding: 20px;
     text-align: center;
     position: relative;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); /* Tambahkan bayangan agar lebih menonjol */
+    border-bottom: 1px solid #202940; /* Beri garis bawah agar terlihat tegas */
 }
 
 .banner-name {
@@ -45,14 +56,14 @@ body {
 }
 
 .site-footer {
-    background-color: #f1f1f1;
+    background-color: #243547;
     text-align: center;
     padding: 10px 0;
     position: relative;
     bottom: 0;
     width: 100%;
     font-size: 14px;
-    color: #333;
+    color: #ffffff;
 }
 
 .filterText {
@@ -79,7 +90,7 @@ body {
 
 .category-btn {
     padding: 10px 15px;
-    background-color: #03882b;
+    background-color: #40556b;
     color: white;
     border: none;
     border-radius: 5px;
@@ -116,7 +127,7 @@ strong {
     flex-direction: column;
     position: relative;
     border: 1px solid #ccc;
-    background-color: white;
+    background-color: rgb(192, 192, 192);
     border-radius: 8px;
     overflow: hidden;
     padding: 10px;
@@ -132,7 +143,7 @@ a.offer-card {
 }
 
 .offer-card:hover {
-    background-color: #cdcbcb;
+    background-color: #8b8b8b;
 }
 
 .offer-info {
@@ -143,6 +154,7 @@ a.offer-card {
 }
 
 .offer-name {
+    color: black;
     margin-top: 1px;
     margin-left: 1px;
     margin-right: 1px;
@@ -191,7 +203,7 @@ a.offer-card {
     flex-direction: column;
     position: relative;
     border: 1px solid #ccc;
-    background-color: white;
+    background-color: rgb(192, 192, 192);
     border-radius: 8px;
     overflow: hidden;
     padding: 10px;
@@ -206,7 +218,7 @@ a.product-card {
 }
 
 .product-card:hover {
-    background-color: #cdcbcb;
+    background-color: #8d8d8d;
 }
 
 .product-info {
@@ -217,6 +229,7 @@ a.product-card {
 }
 
 .product-name {
+    color: black;
     margin-top: 1px;
     margin-left: 1px;
     margin-right: 1px;
@@ -289,7 +302,7 @@ a.product-card {
     transform: translate(-50%, -50%);
     max-width: 90%;
     width: 350px;
-    background: linear-gradient(135deg, #4caf50, #81c784);
+    background: linear-gradient(135deg, #2d5363, #0e90db);
     color: white;
     font-family: Arial, sans-serif;
     border-radius: 10px;
