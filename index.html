@@ -71,14 +71,55 @@
     </div>
 
     <div class="banner-container">
+      <div id="burger" class="hamburger" onclick="toggleMenu()">
+        <div id="hamburger"></div>
+        <div id="hamburger"></div>
+        <div id="hamburger"></div>
+      </div>
       <div class="banner-name">Skylume M. ☁️</div>
     </div>
+
+    <!-- Overlay -->
+    <div class="overlay" onclick="toggleMenu()"></div>
+            
+    <!-- Side Panel -->
+    <div id="side" class="side-panel">
+        <h2 id="warna">Short Profile</h2>
+        <div id="box" class="side-text-box">
+        <p id="warna"><i class="fas fa-users icon"></i> @blueskyzii<br>
+             <i class="fas fa-trophy icon"></i> Junior Developer<br>
+             <i class="fas fa-heart"></i> _nill<br>
+             <i class="fas fa-lock icon"></i> IT</p>
+        </div>
+        <hr>
+        <h4>Send me message.</h4>
+            <form action="https://formspree.io/f/xnnjgyvr" method="POST">
+                <label id="warna">
+                    Email:
+                    <input id="input-box" type="text" name="Sender:">
+                </label>
+                <label id="warna">
+                    Your Message:
+                    <textarea id="box" name="Message:"></textarea>
+                </label>
+                <div class="formButton-container">
+                    <button class="sendButton" type="submit">SEND</button>
+                    <button class="cancelButton" type="button" onclick="cancelForm()">Cancel</button>
+                </div>
+            </form>               
+        <hr>
+        <div id="warna" class="side-social">
+            <a href="https://instagram.com/blueskyzii" id="a1"><i class="fab fa-instagram"></i></a>
+            <a href="https://discord.com/users/1211886368565895221" id="a1"><i class="fab fa-discord"></i></a>
+            <a href="https://tiktok.com/blueskyzii" id="a1"><i class="fab fa-tiktok"></i></a>
+            <a href="mailto:alzidanirafa.01@gmail.com" id="a1"><i class="fas fa-envelope"></i></a>
+        </div>
+    </div>
+
     <div class="tab-container">
       <div class="banner-description">
-        <b
-          >Produk dikelola oleh <span>@TechLoop.ID</span> dan terhubung langsung
-          dengan Tokopedia.</b
-        ><br />
+        <b>Produk dikelola oleh <span>@TechLoop.ID</span> dan terhubung langsung
+          dengan E-commerce.</b><br />
         <strong>✅ Aman! Bukan link phising atau virus.</strong>
       </div>
     </div>
@@ -115,7 +156,7 @@
         onkeyup="searchItems()"
         placeholder="Search for products..."
       />
-    </div>
+    </div> 
 
     <p class="filterText"><b>Filter Item</b></p>
 
@@ -125,6 +166,10 @@
 
     <div id="Container" class="product-container">
       <!-- Products will be dynamically added here -->
+    </div>
+
+    <div class="Container" id="pagination">
+
     </div>
 
     <section id="bawah" class="newsletter">

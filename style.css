@@ -2,7 +2,9 @@ body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
-  background: linear-gradient(
+  background-color: white;
+  color: #000000;
+  /* background: linear-gradient(
     45deg,
     rgb(255, 255, 255),
     #090a0f,
@@ -11,8 +13,177 @@ body {
   );
   background-size: 400% 400%;
   animation: backgroundAnimation 5s ease infinite;
-  color: #ffffff; /* Sesuaikan warna teks agar cocok dengan dark mode */
+  color: #ffffff; Sesuaikan warna teks agar cocok dengan dark mode */
 }
+
+.overlay {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0, 0, 0, 0.5);
+	z-index: 999;
+	opacity: 0;
+	visibility: hidden;
+	transition: opacity 0.3s ease, visibility 0.3s ease;
+}
+
+/* Side Panel */
+.side-panel {
+	border-left: 1px solid #000000;
+	position: fixed;
+	top: 0;
+	left: -500px;
+	width: 300px;
+	height: 100%;
+	background-color: #1a2535;
+	box-shadow: 2px 0 5px rgba(0, 0, 0, 0.2);
+	padding: 20px;
+	z-index: 1000;
+	transition: left 0.3s ease;
+}
+.side-panel h2 {
+	margin-top: 0;
+}
+.side-panel a {
+	display: block;
+	margin: 10px 0;
+	color: #333;
+	text-decoration: none;
+	font-weight: bold;
+}
+.side-panel img {
+	display: block;
+	margin: auto;
+	width: 60%;
+	height: auto;
+}
+.side-panel a:hover {
+	text-decoration: underline;
+}
+.side-social {
+	display: flex;
+	gap: 20px;
+	justify-content: center;
+	margin-top: 10px;
+}
+.side-social a {
+	text-align: center;
+	color: #ffffff;
+	font-size: 24px;
+	text-decoration: none;
+}
+.side-text-box {
+	background-color: #fdfdfd;
+	border: 1px solid #ddd;
+	border-radius: 5px;
+	padding: 10px;
+}
+.side-text-box p {
+	margin: 0;
+	font-weight: bold;
+	color: #666;
+	font-size: 14px;
+	text-align: justify;
+}
+.foryou {
+	font-family: "Cormorant Garamond", serif;
+	margin: 0;
+	font-weight: bold;
+	color: #ffffff;
+	font-size: 14px;
+	text-align: justify;
+}
+
+.overlay.active {
+	opacity: 1;
+	visibility: visible;
+}
+
+.side-panel.active {
+	left: 0;
+}
+
+form {
+  max-width: 500px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #fefefe;
+  border-radius: 12px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+  font-family: Arial, sans-serif;
+}
+
+label#warna {
+  display: block;
+  margin-bottom: 20px;
+  color: #333;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+#input-box,
+#box {
+  width: 100%;
+  padding: 12px 14px;
+  margin-top: 6px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 14px;
+  box-sizing: border-box;
+  resize: vertical;
+  transition: border-color 0.3s;
+}
+
+#input-box:focus,
+#box:focus {
+  border-color: #4a90e2;
+  outline: none;
+}
+
+#box {
+  height: 100px;
+}
+
+.formButton-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.sendButton,
+.cancelButton {
+  flex: 1;
+  padding: 10px;
+  border: none;
+  border-radius: 8px;
+  font-size: 14px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+.sendButton {
+  background-color: #4caf50;
+  color: white;
+}
+
+.sendButton:hover {
+  background-color: #43a047;
+  transform: scale(1.02);
+}
+
+.cancelButton {
+  background-color: #f44336;
+  color: white;
+}
+
+.cancelButton:hover {
+  background-color: #e53935;
+  transform: scale(1.02);
+}
+
 
 @keyframes backgroundAnimation {
   0% {
@@ -28,13 +199,29 @@ body {
 
 /* Banner Styles */
 .banner-container {
-  background-color: #243547; /* Warna yang sesuai dengan tema angkasa */
+  background-color: #364d66; /* Warna yang sesuai dengan tema angkasa */
   color: #ffffff; /* Warna teks putih untuk kontras */
   padding: 20px;
   text-align: center;
   position: relative;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); /* Tambahkan bayangan agar lebih menonjol */
   border-bottom: 1px solid #202940; /* Beri garis bawah agar terlihat tegas */
+}
+
+.hamburger {
+	position: absolute;
+	top: 30px;
+	left: 20px;
+	z-index: 1000;
+	cursor: pointer;
+}
+
+.hamburger div {
+	width: 30px;
+	height: 3px;
+	background-color: #ffffff;
+	margin: 5px 0;
+	transition: 0.3s;
 }
 
 .banner-name {
@@ -47,7 +234,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #1d1f2b;
+  background-color: #35455e;
   padding: 0;
   position: relative;
   top: 0;
@@ -58,6 +245,7 @@ body {
 .banner-description {
   font-size: 14px;
   margin: 10px 5px;
+  color: white;
 }
 
 .banner-description strong {
@@ -195,9 +383,19 @@ a.offer-card {
   object-fit: cover;
 }
 
+.offer-toko {
+  position: absolute;
+  bottom: -8px;
+  left: 50%;
+  transform: translateX(-50%); /* Untuk memastikan harga berada di tengah */
+  text-align: center;
+  font-size: 14px;
+  font-weight: bold;
+}
+
 .offer-price {
   position: absolute;
-  bottom: 3px;
+  bottom: 14px;
   left: 50%;
   transform: translateX(-50%); /* Untuk memastikan harga berada di tengah */
   text-align: center;
@@ -269,9 +467,19 @@ a.product-card {
   object-fit: cover;
 }
 
+.product-toko {
+  position: absolute;
+  bottom: -8px;
+  left: 50%;
+  transform: translateX(-50%); /* Untuk memastikan harga berada di tengah */
+  text-align: center;
+  font-size: 14px;
+  font-weight: bold;
+}
+
 .product-price {
   position: absolute;
-  bottom: 3px;
+  bottom: 14px;
   left: 50%;
   transform: translateX(-50%); /* Untuk memastikan harga berada di tengah */
   text-align: center;
@@ -286,10 +494,45 @@ a.product-card {
   width: 80%; /* Membuat lebar sesuai dengan konten */
 }
 
+#pagination {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.page-btn {
+  margin: 0 4px;
+  padding: 8px 12px;
+  border: none;
+  border-radius: 6px;
+  background-color: #ddd;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.page-btn.active {
+  background-color: #2b3f4d;
+  color: white;
+}
+
+.page-btn:disabled {
+  background-color: #aaa;
+  cursor: default;
+}
+
+.pagination-dots {
+  margin: 0 6px;
+  font-weight: bold;
+  color: #777;
+}
+
+
+
+
+
 .profile-container {
   position: fixed;
   bottom: 20px;
-  left: 20px;
+  right: 20px;
   z-index: 1000;
 }
 
@@ -449,7 +692,12 @@ a.product-card {
     font-size: 11px;
   }
 
+  .product-toko {
+    font-size: 12px;
+  }
+
   .product-price {
+    bottom: 5px;
     font-size: 12px;
   }
 
@@ -473,10 +721,15 @@ a.product-card {
     height: 60%; /* Memperbesar gambar sedikit untuk mengisi area yang lebih kecil */
   }
 
+  .offer-toko {
+    font-size: 12px;
+  }
+
   .offer-price {
     font-size: 12px; /* Menyesuaikan ukuran font harga agar sesuai dengan ukuran kecil */
     padding: 4px 8px; /* Menyesuaikan padding pada harga */
     width: 70%; /* Mengurangi lebar harga agar lebih sesuai */
+    bottom: 5px;
   }
 }
 

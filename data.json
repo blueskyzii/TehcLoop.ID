@@ -6,6 +6,7 @@
       "category": "Mobo",
       "type": "offer",
       "image": "h81 195k.jpg",
+      "toko": "Tokopedia",
       "price": "Rp. 195.000",
       "link": "https://tokopedia.link/Iepcfe3h3Pb"
     },
@@ -15,6 +16,7 @@
       "category": ["CPU", "Cooler"],
       "type": "biasa",
       "image": "g3240+fan.jpg",
+      "toko": "Tokopedia",
       "price": "Rp. 30.000",
       "link": "https://tokopedia.link/40hHIU4h3Pb"
     },
@@ -24,6 +26,7 @@
       "category": "CPU",
       "type": "biasa",
       "image": "i3 4150.jpg",
+      "toko": "Tokopedia",
       "price": "Rp. 55.000",
       "link": "https://tokopedia.link/C97fue7h3Pb"
     },
@@ -33,6 +36,7 @@
       "category": "RAM",
       "type": "offer",
       "image": "ram 2x4gb 70k.jpg",
+      "toko": "Tokopedia",
       "price": "Rp. 70.000",
       "link": "https://tokopedia.link/6WvwsRHg3Pb"
     },
@@ -42,6 +46,7 @@
       "category": "SSD",
       "type": "biasa",
       "image": "kyo nvme 512gb.jpg",
+      "toko": "Tokopedia",
       "price": "Rp. 415.000",
       "link": "https://tokopedia.link/dl3pd4NvZPb"
     },
@@ -51,6 +56,7 @@
       "category": "SSD",
       "type": "biasa",
       "image": "vgen platinum 512gb.jpg",
+      "toko": "Tokopedia",
       "price": "Rp. 418.000",
       "link": "https://tokopedia.link/FMhDYCfi3Pb"
     },
@@ -60,6 +66,7 @@
       "category": "VGA",
       "type": "biasa",
       "image": "r7 350 2gb ddr5.jpg",
+      "toko": "Tokopedia",
       "price": "Rp. 477.001",
       "link": "https://tokopedia.link/b1Kb2Tgi3Pb"
     },
@@ -69,6 +76,7 @@
       "category": "CPU",
       "type": "biasa",
       "image": "i5 4570 a.png",
+      "toko": "Tokopedia",
       "price": "Rp. 252.000",
       "link": "https://tokopedia.link/Qqxjh0hi3Pb"
     },
@@ -78,6 +86,7 @@
       "category": "RAM",
       "type": "biasa",
       "image": "ram 4gb 2400mhz.jpg",
+      "toko": "Tokopedia",
       "price": "Rp. 75.000",
       "link": "https://tokopedia.link/YEyk00kk3Pb"
     },
@@ -87,6 +96,7 @@
       "category": "Cooler",
       "type": "offer",
       "image": "hsf thermal.jpg",
+      "toko": "Tokopedia",
       "price": "Rp. 26.500",
       "link": "https://tokopedia.link/rQrflbAx3Pb"
     },
@@ -96,6 +106,7 @@
       "category": "CPU",
       "type": "biasa",
       "image": "i3 7100.png",
+      "toko": "Tokopedia",
       "price": "Rp. 225.300",
       "link": "https://tokopedia.link/dkiwtMBx3Pb"
     },
@@ -105,6 +116,7 @@
       "category": "Mobo",
       "type": "biasa",
       "image": "gigabyte h110.jpg",
+      "toko": "Tokopedia",
       "price": "Rp. 415.500",
       "link": "https://tokopedia.link/d2ZJUHPx3Pb"
     },
@@ -114,6 +126,7 @@
       "category": "Other",
       "type": "biasa",
       "image": "thermal paste.png",
+      "toko": "Tokopedia",
       "price": "Rp. 1.148",
       "link": "https://tokopedia.link/yIW0hQWx3Pb"
     },
@@ -123,6 +136,7 @@
       "category": "CPU",
       "type": "biasa",
       "image": "i5 4590.png",
+      "toko": "Tokopedia",
       "price": "Rp. 265.000",
       "link": "https://tokopedia.link/JcU1JQXx3Pb"
     },
@@ -132,6 +146,7 @@
       "category": "Mobo",
       "type": "biasa",
       "image": "kyo h81.jpg",
+      "toko": "Tokopedia",
       "price": "Rp. 359.000",
       "link": "https://tokopedia.link/pEzV0TYx3Pb"
     },
@@ -141,6 +156,7 @@
       "category": "Casing",
       "type": "biasa",
       "image": "noir 3fan.jpg",
+      "toko": "Tokopedia",
       "price": "Rp. 325.000",
       "link": "https://tokopedia.link/Vcrwar0x3Pb"
     },
@@ -150,6 +166,7 @@
       "category": "PSU",
       "type": "biasa",
       "image": "enter hv 550w.jpg",
+      "toko": "Tokopedia",
       "price": "Rp. 683.000",
       "link": "https://tokopedia.link/F75iOC1x3Pb"
     },
@@ -159,6 +176,7 @@
       "category": "VGA",
       "type": "biasa",
       "image": "rx 580 8gb new.jpg",
+      "toko": "Tokopedia",
       "price": "Rp. 1.150.000",
       "link": "https://tokopedia.link/oTD5L12x3Pb"
     },
@@ -168,6 +186,7 @@
       "category": "VGA",
       "type": "biasa",
       "image": "rx 570 8gb.jpg",
+      "toko": "Tokopedia",
       "price": "Rp. 999.000",
       "link": "https://tokopedia.link/3S1ju64x3Pb"
     },
@@ -177,6 +196,7 @@
       "category": "HDD",
       "type": "biasa",
       "image": "hdd 1tb.jpg",
+      "toko": "Tokopedia",
       "price": "Rp. 235.800",
       "link": "https://tokopedia.link/fcmUCC6x3Pb"
     },
@@ -186,6 +206,7 @@
       "category": "Mobo",
       "type": "biasa",
       "image": "ecs h81 250k.jpg",
+      "toko": "Tokopedia",
       "price": "Rp. 250.300",
       "link": "https://tokopedia.link/lLRsvC7x3Pb"
     },
@@ -195,6 +216,7 @@
       "category": "PSU",
       "type": "biasa",
       "image": "vs450.jpg",
+      "toko": "Tokopedia",
       "price": "Rp. 300.000",
       "link": "https://tokopedia.link/nBiskp8x3Pb"
     },
@@ -204,6 +226,7 @@
       "category": "Casing",
       "type": "biasa",
       "image": "casing 55k.jpg",
+      "toko": "Tokopedia",
       "price": "Rp. 55.000",
       "link": "https://tokopedia.link/006INT9x3Pb"
     },
@@ -213,6 +236,7 @@
       "category": "CPU",
       "type": "biasa",
       "image": "core i5 4570.png",
+      "toko": "Tokopedia",
       "price": "Rp. 252.000",
       "link": "https://tokopedia.link/FPXuFd4lGPb"
     },
@@ -222,6 +246,7 @@
       "category": "VGA",
       "type": "biasa",
       "image": "1050ti 950k.jpg",
+      "toko": "Tokopedia",
       "price": "Rp. 950.000",
       "link": "https://tokopedia.link/HNzZtWzkGPb"
     },
@@ -231,6 +256,7 @@
       "category": "VGA",
       "type": "biasa",
       "image": "fighter rx 6600.jpg",
+      "toko": "Tokopedia",
       "price": "Rp. 2.035.000",
       "link": "https://tokopedia.link/leJW0fRhGPb"
     },
@@ -240,6 +266,7 @@
       "category": "VGA",
       "type": "biasa",
       "image": "rx 6600 8gb dual.jpg",
+      "toko": "Tokopedia",
       "price": "Rp. 2.442.000",
       "link": "https://tokopedia.link/lVhjH3EhGPb"
     },
@@ -249,6 +276,7 @@
       "category": "Casing",
       "type": "biasa",
       "image": "raptor pluto 2 fan.jpg",
+      "toko": "Tokopedia",
       "price": "Rp. 285.000",
       "link": "https://tokopedia.link/FzjKiZgy3Pb"
     },
@@ -258,6 +286,7 @@
       "category": "PSU",
       "type": "biasa",
       "image": "hv pro 550w.jpg",
+      "toko": "Tokopedia",
       "price": "Rp. 665.000",
       "link": "https://tokopedia.link/UFSurNhy3Pb"
     },
@@ -267,6 +296,7 @@
       "category": "RAM",
       "type": "biasa",
       "image": "adata kit 16gb ddr4.jpg",
+      "toko": "Tokopedia",
       "price": "Rp. 545.000",
       "link": "https://tokopedia.link/NwDPaHiy3Pb"
     },
@@ -276,6 +306,7 @@
       "category": "Casing",
       "type": "biasa",
       "image": "casing noir.jpg",
+      "toko": "Tokopedia",
       "price": "Rp. 260.000",
       "link": "https://tokopedia.link/p5TkZgYgGPb"
     },
@@ -285,6 +316,7 @@
       "category": "SSD",
       "type": "biasa",
       "image": "adata legend 900.jpg",
+      "toko": "Tokopedia",
       "price": "Rp. 625.000",
       "link": "https://tokopedia.link/s1hpduky3Pb"
     },
@@ -294,6 +326,7 @@
       "category": "CPU",
       "type": "biasa",
       "image": "ryzen 5 5600.jpg",
+      "toko": "Tokopedia",
       "price": "Rp. 1.299.001",
       "link": "https://tokopedia.link/Cr5Cfily3Pb"
     },
@@ -303,6 +336,7 @@
       "category": "Mobo",
       "type": "biasa",
       "image": "msi b550.jpg",
+      "toko": "Tokopedia",
       "price": "Rp. 1.095.000",
       "link": "https://tokopedia.link/YVoXomny3Pb"
     },
@@ -312,6 +346,7 @@
       "category": "Cooler",
       "type": "biasa",
       "image": "segotep e4.jpg",
+      "toko": "Tokopedia",
       "price": "Rp. 165.000",
       "link": "https://tokopedia.link/YkvEdloy3Pb"
     },
@@ -322,6 +357,7 @@
       "category": "Cooler",
       "type": "biasa",
       "image": "ag400.jpg",
+      "toko": "Tokopedia",
       "price": "Rp. 239.000",
       "link": "https://tokopedia.link/lrMCoqpy3Pb"
     },
@@ -331,6 +367,7 @@
       "category": "VGA",
       "type": "biasa",
       "image": "powercolor rx 580.jpg",
+      "toko": "Tokopedia",
       "price": "Rp. 950.000",
       "link": "https://tokopedia.link/KRKdhjvtFPb"
     },
@@ -340,6 +377,7 @@
       "category": "Other",
       "type": "biasa",
       "image": "kabelsata.jpg",
+      "toko": "Tokopedia",
       "price": "Rp. 7.800",
       "link": "https://tokopedia.link/v1Lpucry3Pb"
     },
@@ -349,6 +387,7 @@
       "category": "Other",
       "type": "biasa",
       "image": "kabelpsu.png",
+      "toko": "Tokopedia",
       "price": "Rp 7.500",
       "link": "https://tokopedia.link/ODWWlnsy3Pb"
     },
@@ -358,6 +397,7 @@
       "category": "HDD",
       "type": "biasa",
       "image": "baracuda500gb.jpg",
+      "toko": "Tokopedia",
       "price": "Rp. 90.000",
       "link": "https://tokopedia.link/6OswVhty3Pb"
     },
@@ -367,6 +407,7 @@
       "category": "Other",
       "type": "biasa",
       "image": "kbmouse.jpg",
+      "toko": "Tokopedia",
       "price": "Rp. 105.000",
       "link": "https://tokopedia.link/BPBXbAvy3Pb"
     },
@@ -376,6 +417,7 @@
       "category": "VGA",
       "type": "offer",
       "image": "hd5770.jpg",
+      "toko": "Tokopedia",
       "price": "Rp. 245.000",
       "link": "https://tokopedia.link/UyaAICwy3Pb"
     },
@@ -385,6 +427,7 @@
       "category": "SSD",
       "type": "biasa",
       "image": "dst128gb.jpg",
+      "toko": "Tokopedia",
       "price": "Rp. 114.000",
       "link": "https://tokopedia.link/ngPXBOxy3Pb"
     },
@@ -394,6 +437,7 @@
       "category": "Mobo",
       "type": "biasa",
       "image": "h81 200k.webp",
+      "toko": "Tokopedia",
       "price": "Rp. 265.200",
       "link": "https://tokopedia.link/XLjE3qEy3Pb"
     },
@@ -403,6 +447,7 @@
       "category": "SSD",
       "type": "biasa",
       "image": "ssd vgen 128.webp",
+      "toko": "Tokopedia",
       "price": "Rp. 124.000",
       "link": "https://tokopedia.link/vDEBz2Qy3Pb"
     },
@@ -412,6 +457,7 @@
       "category": "CPU",
       "type": "biasa",
       "image": "i3 6100.webp",
+      "toko": "Tokopedia",
       "price": "Rp. 145.000",
       "link": "https://tokopedia.link/7A8rqsSy3Pb"
     },
@@ -421,6 +467,7 @@
       "category": "Mobo",
       "type": "biasa",
       "image": "Asrock H110M.jpg",
+      "toko": "Tokopedia",
       "price": "Rp. 325.000",
       "link": "https://tokopedia.link/eWo4wmTy3Pb"
     },
@@ -430,6 +477,7 @@
       "category": "CPU",
       "type": "biasa",
       "image": "i3 3240.jpg",
+      "toko": "Tokopedia",
       "price": "Rp 55,000",
       "link": "https://tokopedia.link/NmOHsHVy3Pb"
     },
@@ -439,6 +487,7 @@
       "category": "CPU",
       "type": "biasa",
       "image": "i5 3470.jpg",
+      "toko": "Tokopedia",
       "price": "Rp 150,000",
       "link": "https://tokopedia.link/jNAlrGWy3Pb"
     },
@@ -448,6 +497,7 @@
       "category": "CPU",
       "type": "biasa",
       "image": "i3 2500.jpg",
+      "toko": "Tokopedia",
       "price": "Rp 120,000",
       "link": "https://tokopedia.link/zz9BsCXy3Pb"
     },
@@ -457,6 +507,7 @@
       "category": "Mobo",
       "type": "biasa",
       "image": "paket g41.webp",
+      "toko": "Tokopedia",
       "price": "Rp 150,000",
       "link": "https://tokopedia.link/ACCosIYy3Pb"
     },
@@ -466,6 +517,7 @@
       "category": "Mobo",
       "type": "biasa",
       "image": "foxconn h61.webp",
+      "toko": "Tokopedia",
       "price": "Rp 179,300",
       "link": "https://tokopedia.link/2lGXtSZy3Pb"
     },
@@ -475,6 +527,7 @@
       "category": "Mobo",
       "type": "biasa",
       "image": "ecs h81.jpg",
+      "toko": "Tokopedia",
       "price": "Rp 200.000 - 245.000",
       "link": "https://tokopedia.link/aGxAwC1y3Pb"
     },
@@ -484,6 +537,7 @@
       "category": "Cooler",
       "type": "biasa",
       "image": "deepcool fan.webp",
+      "toko": "Tokopedia",
       "price": "Rp 41,000",
       "link": "https://tokopedia.link/3AoDmg3y3Pb"
     },
@@ -493,6 +547,7 @@
       "category": "Cooler",
       "type": "biasa",
       "image": "nemesis.jpg",
+      "toko": "Tokopedia",
       "price": "Rp 80,000",
       "link": "https://tokopedia.link/MePVUb4y3Pb"
     },
@@ -502,6 +557,7 @@
       "category": "Cooler",
       "type": "biasa",
       "image": "hsf aio.webp",
+      "toko": "Tokopedia",
       "price": "Rp 20,000",
       "link": "https://tokopedia.link/0X9x0i5y3Pb"
     },
@@ -511,6 +567,7 @@
       "category": "Cooler",
       "type": "biasa",
       "image": "jonsbo1200.jpg",
+      "toko": "Tokopedia",
       "price": "Rp 112,000",
       "link": "https://tokopedia.link/HIltBAzcDPb"
     },
@@ -520,6 +577,7 @@
       "category": "VGA",
       "type": "biasa",
       "image": "rx7 gt 740.jpg",
+      "toko": "Tokopedia",
       "price": "Rp 432,000",
       "link": "https://tokopedia.link/xw6CFe7y3Pb"
     },
@@ -529,6 +587,7 @@
       "category": "RAM",
       "type": "biasa",
       "image": "ram 4gb pc12800.webp",
+      "toko": "Tokopedia",
       "price": "Rp 47,100",
       "link": "https://tokopedia.link/rpnTP67y3Pb"
     },
@@ -538,6 +597,7 @@
       "category": "RAM",
       "type": "biasa",
       "image": "ram 8gb pc12800.webp",
+      "toko": "Tokopedia",
       "price": "Rp 80,000",
       "link": "https://tokopedia.link/j0vVjl9y3Pb"
     },
@@ -547,6 +607,7 @@
       "category": "RAM",
       "type": "biasa",
       "image": "ram 4gb pc19200.webp",
+      "toko": "Tokopedia",
       "price": "Rp 87,300",
       "link": "https://tokopedia.link/mhK62daz3Pb"
     },
@@ -556,6 +617,7 @@
       "category": "HDD",
       "type": "biasa",
       "image": "hdd 500gb.webp",
+      "toko": "Tokopedia",
       "price": "Rp 93,000",
       "link": "https://tokopedia.link/kDGKYcJy3Pb"
     },
@@ -565,6 +627,7 @@
       "category": "HDD",
       "type": "biasa",
       "image": "hdd 250gb.webp",
+      "toko": "Tokopedia",
       "price": "Rp 55,000",
       "link": "https://tokopedia.link/wr3oCBez3Pb"
     },
@@ -574,6 +637,7 @@
       "category": "Casing",
       "type": "biasa",
       "image": "case psu.webp",
+      "toko": "Tokopedia",
       "price": "Rp 128,000",
       "link": "https://tokopedia.link/d8Lnaofz3Pb"
     },
@@ -583,6 +647,7 @@
       "category": "PSU",
       "type": "biasa",
       "image": "PSU 55k.webp",
+      "toko": "Tokopedia",
       "price": "Rp 55,000",
       "link": "https://tokopedia.link/27Q3Y8fz3Pb"
     },
@@ -592,6 +657,7 @@
       "category": "PSU",
       "type": "biasa",
       "image": "kf450.jpg",
+      "toko": "Tokopedia",
       "price": "Rp. 400.000",
       "link": "https://tokopedia.link/JenBf3gz3Pb"
     }
